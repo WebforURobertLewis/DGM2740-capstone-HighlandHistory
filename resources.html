@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Highland Historical Society Capstone Project</title>
+</head>
+<body>
+    <header>
+
+        <figure>
+            <img class="logo" src="/images/VirginiaMuseumLogoWithTextBottom.png" alt="Highland Hostorical Society Logo"
+            srcset="/images/logo1.png 1x,
+            /images/logo2.png 2x,
+            /images/logo3.png 3x">
+
+
+    </figure>
+    <h1>Highland Historical Society</h1>
+    <h2>Resources</h2>
+
+    </header>
+    <div id="navWrapper">
+        <nav>
+            <button id="burger"><span>&#9776;</span><span>X</span></button>
+            <ul id="navMenu">
+    
+                <li><a href="index.html"><i class= "icon ion-md-home"></i><br><span>Home</span></a></li>
+                <li class="parent"><a href="media.html"><i class= "icon ion-md-play"></i><br><span>Media</span></a>
+                    <ul>
+                        <li><a href="media.html">David Tol'able Movie</a></li>
+                    </ul>      
+                </li>    
+                <li class="parent"><a href="exhibits.html"><i class= "icon ion-md-photos"></i><br><span>Exhibits</span></a>
+                    <ul>
+                        <li><a href="exhibits.html">Historic Town of McDowell</a></li>
+                        <li><a href="families.html">First Families</a></li>
+                        <li><a href="exhibits.html">Virtual Museum</a></li>
+                        <li><a href="exhibits.html">McDowell Battlefield</a></li>
+                    </ul>
+                </li>
+                <li class="parent active"><a href="resources.html"><i class="icon ion-md-bookmarks"></i><br><span>Resources</span></a>
+                    <ul>
+                        <li><a href="forms.html">Membership</a></li>
+                        <li><a href="forms.html">Blog</a></li>
+                        <li><a href="forms.html">Research Library</a></li>
+                        <li><a href="forms.html">Newsletters 2006-2016</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <main>
+        <p>This page is still under construction.</p>
+        <p>Thank you for your understanding.</p>
+        <p>Please see our membership page under the resource tab or click <a href="forms.html">here</a>.</p>
+    </main>
+    <footer><p>Robert Lewis &bull; 2022</p>
+    </footer>
+    <script>function openMenu() {
+        document.getElementById("navMenu").classList.toggle("classOpen");
+        document.getElementById("burger").classList.toggle("classOpen");
+    }
+    
+    const x = document.getElementById('burger');
+    x.onclick = openMenu
+    const container = document.getElementById("burger")
+    container.onclick = openMenu;</script>
+    <script src="/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.6.1/dist/lazyload.min.js"></script>
+
+
+
+</body>
+</html>
